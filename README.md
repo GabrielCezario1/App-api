@@ -42,7 +42,7 @@ O projeto base vem com as seguintes funcionalidades pré-configuradas:
 *   **Estrutura de Projeto em Camadas:** O código é organizado em camadas de Domínio, Aplicação, Infraestrutura e Injeção de Dependência (IoC) para melhor manutenibilidade.
 *   **Swagger/OpenAPI:** Documentação da API gerada automaticamente e disponível em `/swagger`.
 
-## 🚀 Objetivo Este projeto 
+## 🚀 Objetivo deste projeto 
 É servir como base para iniciar novas aplicações que sigam boas práticas de arquitetura limpa, promovendo escalabilidade, manutenibilidade e organização. Ideal para desenvolvedores que buscam agilidade no início de projetos sem abrir mão da qualidade e estruturação do código.
 
 ## 🧭 O que um iniciante precisa aprender para montar esse repositório do zero
