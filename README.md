@@ -45,6 +45,20 @@ O projeto base vem com as seguintes funcionalidades pré-configuradas:
 ## 🚀 Objetivo Este projeto 
 É servir como base para iniciar novas aplicações que sigam boas práticas de arquitetura limpa, promovendo escalabilidade, manutenibilidade e organização. Ideal para desenvolvedores que buscam agilidade no início de projetos sem abrir mão da qualidade e estruturação do código.
 
+## 🧭 O que um iniciante precisa aprender para montar esse repositório do zero
+
+- **Fundamentos de Git e GitHub**: clonar projetos, criar branches e versionar código.
+- **C# e .NET 8**: tipos básicos, orientação a objetos, `async/await` e uso do CLI (`dotnet new`, `dotnet restore`, `dotnet run`).
+- **ASP.NET Core Web API**: controllers, rotas, model binding e tratamento de respostas HTTP.
+- **Conceitos de HTTP e REST**: verbos, status codes, cabeçalhos e boas práticas de APIs.
+- **Configurações da aplicação**: `appsettings.json`, variáveis de ambiente e gerenciamento de secrets.
+- **Arquitetura em camadas/DDD**: separar responsabilidades entre Api, Aplicacao, DataTransfer (DTOs), Dominio, Infra e Ioc.
+- **Injeção de Dependência**: registrar e resolver serviços, repositórios e mapeamentos.
+- **Entity Framework Core com MySQL**: configurar `DbContext`, criar migrações e aplicar com `dotnet ef database update`.
+- **AutoMapper**: criar profiles para mapear entidades ↔ DTOs.
+- **Validação e DTOs**: usar Data Annotations para garantir entradas corretas antes de persistir dados.
+- **Swagger/OpenAPI e CORS**: documentar a API e configurar políticas para permitir o acesso do front-end.
+
 ## Como Rodar o Projeto
 
 Siga os passos abaixo para configurar e executar a aplicação em seu ambiente de desenvolvimento.
